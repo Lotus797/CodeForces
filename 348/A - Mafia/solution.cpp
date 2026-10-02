@@ -1,0 +1,81 @@
+/// https://open.spotify.com/track/0nLCr2HyRIAMyDbFnYQjnG?si=a755c6d3451b4338
+/*
+⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣶⣶⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀
+⠀⢀⣾⣿⡿⠿⠛⠛⠛⠉⠉⠉⠉⠛⠛⠛⠿⠿⣿⣿⣿⣿⣿⣷⡀⠀
+⠀⣾⣿⣿⣇⠀⣀⣀⣠⣤⣤⣤⣤⣤⣀⣀⠀⠀⠀⠈⠙⠻⣿⣿⣷⠀
+⢠⣿⣿⣿⣿⡿⠿⠟⠛⠛⠛⠛⠛⠛⠻⠿⢿⣿⣶⣤⣀⣠⣿⣿⣿⡄
+⢸⣿⣿⣿⣿⣇⣀⣀⣤⣤⣤⣤⣤⣄⣀⣀⠀⠀⠉⠛⢿⣿⣿⣿⣿⡇
+⠘⣿⣿⣿⣿⣿⠿⠿⠛⠛⠛⠛⠛⠛⠿⠿⣿⣶⣦⣤⣾⣿⣿⣿⣿⠃
+⠀⢿⣿⣿⣿⣿⣤⣤⣤⣤⣶⣶⣦⣤⣤⣄⡀⠈⠙⣿⣿⣿⣿⣿⡿⠀
+⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⡿⠁⠀
+⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀
+⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠿⠿⠿⠿⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀
+'*/
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h>
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+#define gcd(a, b) __gcd(a, b)
+#define ALL(x) x.begin(), x.end()
+#define MAX(v) *max_element(v.begin(), v.end())
+#define MIN(v) *min_element(v.begin(), v.end())
+#define SZ(v) int((v).size())
+#define FOR(i, a, b) for (int i = a; i < b; i++)
+#define FORR(i, a, b) for (int i = a; i <= b; i++)
+#define veci vector<int>
+#define vecs vector<string>
+#define vecc vector<char>
+#define vecb vector<bool>
+#define deqi deque<int>
+#define deqs deque<string>
+#define st set<int>
+#define mst multiset<int>
+#define int long long
+#define str string
+ 
+using namespace std;
+ 
+ 
+ 
+bool isprime(int n) {
+    if (n < 2) {
+        return 0;
+    }
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
+            return 0;
+        }
+    }
+    return 1;
+}
+ 
+/// ⌁Yanke⌁ /// 
+ 
+ 
+void _(){
+    int n;
+    cin >> n;
+    veci v(n);
+    int sum = 0;
+    int mx = 0; 
+    FOR(i,0,n){
+        cin >> v[i];
+        sum+=v[i];
+        mx = max(mx, v[i]); 
+    }
+    int mx2 = max(mx, (sum+n-2)/(n-1));
+    cout << mx2;
+}
+signed main()
+{
+    fastio
+ 
+    int t = 1;
+    //cin >> t;
+    while (t--)
+    {
+        _();
+    }
+}
