@@ -1,0 +1,35 @@
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h>
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+#define gcd(a,b) __gcd(a,b)
+#define all(x) x.begin(),x.end()
+#define MAX(v) *max_element(v.begin(),v.end())
+#define MIN(v) *min_element(v.begin(),v.end())
+#define sz(v) int((v).size())
+#define FOR(i,a,b) for (int i = a; i < b; i++)
+#define FORR(i,a,b) for (int i = a; i <= b; i++)
+#define veci vector<int>
+#define vecs vector<string>
+#define vecc vector<char>
+#define st set<int>
+#define mst multiset<int>
+#define int long long
+#define str string
+using namespace std;
+/* Yankey */
+void _() {
+    int n,m,a,b;
+    cin >> n >> m >> a >> b;
+    cout << min((n*a),(n/m)*b+min((n%m)*a,b)) << endl;
+}
+ 
+ 
+signed main() {
+    fastio;
+ 
+    int t = 1;
+    //cin >> t;
+    while (t--) {
+        _();
+    }
+}
