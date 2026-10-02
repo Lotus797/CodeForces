@@ -6,26 +6,34 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 7 |
+| 30 | 8 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (3)
-- [greedy](#greedy) (2)
+- [*special](#special) (1)
+- [brute force](#brute-force) (4)
+- [greedy](#greedy) (5)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (10)
-- [math](#math) (5)
-- [sortings](#sortings) (2)
-- [strings](#strings) (6)
+- [implementation](#implementation) (19)
+- [math](#math) (9)
+- [sortings](#sortings) (3)
+- [strings](#strings) (12)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 25A | [IQ test](https://codeforces.com/contest/25/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/25/A%20-%20IQ%20test/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
@@ -35,7 +43,10 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1837/B%20-%20Comparison%20String/solution.cpp) |
+| 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.cpp) |
 
 ### hashing
 
@@ -49,12 +60,21 @@
 |---|---------|------------|----------|
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
+| 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
+| 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
+| 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
+| 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 
@@ -62,16 +82,21 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1/A%20-%20Theatre%20Square/solution.cpp) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
+| 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
+| 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
 
@@ -80,11 +105,17 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
+| 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
+| 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.cpp) |
+| 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 
 ---
 
