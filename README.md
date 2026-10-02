@@ -6,24 +6,27 @@
 
 | Total Problems | Topics |
 |---|---|
-| 58 | 12 |
+| 72 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (1)
+- [*special](#special) (2)
 - [brute force](#brute-force) (10)
-- [constructive algorithms](#constructive-algorithms) (2)
+- [constructive algorithms](#constructive-algorithms) (5)
+- [data structures](#data-structures) (1)
 - [dp](#dp) (2)
 - [games](#games) (1)
-- [greedy](#greedy) (10)
+- [graph matchings](#graph-matchings) (1)
+- [greedy](#greedy) (13)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (35)
-- [math](#math) (18)
+- [implementation](#implementation) (46)
+- [math](#math) (20)
 - [number theory](#number-theory) (1)
-- [sortings](#sortings) (6)
-- [strings](#strings) (17)
+- [shortest paths](#shortest-paths) (1)
+- [sortings](#sortings) (8)
+- [strings](#strings) (20)
 
 ---
 
@@ -32,6 +35,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 
 ### brute force
 
@@ -53,7 +57,16 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
+| 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.cpp) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
+| 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1760C | [Advantage](https://codeforces.com/contest/1760/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/C%20-%20Advantage/solution.cpp) |
 
 ### dp
 
@@ -68,20 +81,29 @@
 |---|---------|------------|----------|
 | 2183A | [Binary Array Game](https://codeforces.com/contest/2183/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2183/A%20-%20Binary%20Array%20Game/solution.cpp) |
 
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.cpp) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1837/B%20-%20Comparison%20String/solution.cpp) |
 | 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.cpp) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.cpp) |
+| 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
 
 ### hashing
 
@@ -97,17 +119,23 @@
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/96/A%20-%20Football/solution.cpp) |
+| 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
+| 116A | [Tram](https://codeforces.com/contest/116/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/116/A%20-%20Tram/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 131A | [cAPS lOCK](https://codeforces.com/contest/131/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/131/A%20-%20cAPS%20lOCK/solution.cpp) |
 | 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/133/A%20-%20HQ9%2B/solution.cpp) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.cpp) |
+| 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
@@ -122,11 +150,16 @@
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
+| 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/A%20-%20Medium%20Number/solution.cpp) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.cpp) |
+| 1760C | [Advantage](https://codeforces.com/contest/1760/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/C%20-%20Advantage/solution.cpp) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.cpp) |
 
 ### math
@@ -137,6 +170,7 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/318/A%20-%20Even%20Odds/solution.cpp) |
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
@@ -151,12 +185,19 @@
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
 | 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/122/A%20-%20Lucky%20Division/solution.cpp) |
+
+### shortest paths
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 
 ### sortings
 
@@ -166,6 +207,8 @@
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/A%20-%20Medium%20Number/solution.cpp) |
+| 1760C | [Advantage](https://codeforces.com/contest/1760/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/C%20-%20Advantage/solution.cpp) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
 
@@ -176,6 +219,7 @@
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/96/A%20-%20Football/solution.cpp) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
 | 131A | [cAPS lOCK](https://codeforces.com/contest/131/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/131/A%20-%20cAPS%20lOCK/solution.cpp) |
@@ -184,8 +228,10 @@
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/520/A%20-%20Pangram/solution.cpp) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
 | 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.cpp) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/yankev912/CodeForces/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.cpp) |
