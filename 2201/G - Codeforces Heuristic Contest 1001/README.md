@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2201/problem/G" target="_blank" rel="noopener noreferrer">2201G — Codeforces Heuristic Contest 1001</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 3500 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2201G](https://codeforces.com/contest/2201/problem/G) |
+
+## Topics
+`constructive algorithms`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">G. Codeforces Heuristic Contest 1001</div><div class="time-limit"><div class="property-title">time limit per test</div>9 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>1001 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There is a graph of $$$n^2$$$ vertices, where vertices are labeled by integer pairs $$$(r,c)$$$ such that $$$1 \le r,c \le n$$$. Vertices $$$(r_1,c_1)$$$ and $$$(r_2,c_2)$$$ are <span class="tex-font-style-bf">directly</span> connected if and only if $$$(r_1-r_2)^2+(c_1-c_2)^2=\color{red}{13}$$$. This graph is called the <span class="tex-font-style-bf">Zebra Graph</span> of dimensions $$$n \times n$$$.</p><p>Please find a subset of vertices $$$S$$$ in the Zebra Graph of dimensions $$$n \times n$$$, which satisfies the following condition.</p><ul> <li> The graph induced$$$^{\text{∗}}$$$ by the subset $$$S$$$ is isomorphic to a cycle graph of at least $$$\left\lfloor{\frac{n^2}{e}}\right\rfloor$$$ vertices$$$^{\text{†}}$$$. </li></ul><p>It can be shown that such a subset of vertices exists under the constraints of this problem.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$The induced graph of a subset of vertices $$$X$$$ is a graph that contains all vertices in $$$X$$$ and all edges whose both endpoints are in $$$X$$$.</p><p>$$$^{\text{†}}$$$Here, $$$e$$$ is the mathematical constant equal to the limit $$$\lim \limits_{n \to \infty} \left ({1 + \frac{1}{n}} \right )^n \approx 2.71828182$$$. Note that the value of $$$\frac{1}{e}$$$ is approximately $$$0.36787944$$$.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>The first and only line of input contains a single integer $$$n$$$ ($$$n\in \{5,1001\}$$$).</p><p><span class="tex-font-style-bf">There are only two input files for this problem</span>:</p><ul> <li> The first input file (the example input) has $$$n=5$$$; </li><li> The second input file has $$$n=1001$$$. </li></ul><p><span class="tex-font-style-bf">Hacks are disabled for this problem.</span></p></div><div class="output-specification"><div class="section-title">Output</div><p>Output $$$n$$$ lines, each containing a string $$$s_i$$$ of length $$$n$$$ denoting the $$$i$$$-th row of the graph. If the vertex $$$(r,c)$$$ is an element of $$$S$$$, then the $$$c$$$-th letter of $$$s_r$$$ should be '<span class="tex-font-style-tt">1</span>'. Otherwise, the $$$c$$$-th letter of $$$s_r$$$ should be '<span class="tex-font-style-tt">0</span>'.</p><p>If there are multiple solutions, print any of them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009951087172645011" id="id0046934411030329504" class="input-output-copier">Copy</div></div><pre id="id009951087172645011"><div class="test-example-line test-example-line-odd test-example-line-1">5</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004046370626431107" id="id001783574350207373" class="input-output-copier">Copy</div></div><pre id="id004046370626431107">01110
+11011
+10001
+11011
+01110
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the example output, the induced graph corresponding to the subset $$$S$$$ is shown below.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/03c667eeb59a0967db001258852881799d89b382.png" style="zoom: 60.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>This graph is isomorphic to the cycle graph $$$C_{16}$$$ consisting of $$$16$$$ vertices. As $$$16 \ge \left\lfloor{\frac{n^2}{e}}\right\rfloor = 9$$$, the output satisfies the problem's condition.</p></div>
