@@ -1,0 +1,85 @@
+/// https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp?si=c247b585bbd44a11
+/*
+⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣶⣶⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀
+⠀⢀⣾⣿⡿⠿⠛⠛⠛⠉⠉⠉⠉⠛⠛⠛⠿⠿⣿⣿⣿⣿⣿⣷⡀⠀
+⠀⣾⣿⣿⣇⠀⣀⣀⣠⣤⣤⣤⣤⣤⣀⣀⠀⠀⠀⠈⠙⠻⣿⣿⣷⠀
+⢠⣿⣿⣿⣿⡿⠿⠟⠛⠛⠛⠛⠛⠛⠻⠿⢿⣿⣶⣤⣀⣠⣿⣿⣿⡄
+⢸⣿⣿⣿⣿⣇⣀⣀⣤⣤⣤⣤⣤⣄⣀⣀⠀⠀⠉⠛⢿⣿⣿⣿⣿⡇
+⠘⣿⣿⣿⣿⣿⠿⠿⠛⠛⠛⠛⠛⠛⠿⠿⣿⣶⣦⣤⣾⣿⣿⣿⣿⠃
+⠀⢿⣿⣿⣿⣿⣤⣤⣤⣤⣶⣶⣦⣤⣤⣄⡀⠈⠙⣿⣿⣿⣿⣿⡿⠀
+⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⡿⠁⠀
+⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀
+⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠿⠿⠿⠿⠛⠛⠋⠁⠀⠀⠀
+'*/
+ 
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h>
+#define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
+#define gcd(a, b) __gcd(a, b)
+#define ALL(x) x.begin(), x.end()
+#define MAX(v) *max_element(v.begin(), v.end())
+#define MIN(v) *min_element(v.begin(), v.end())
+#define SZ(v) int((v).size())
+#define FOR(i, a, b) for (int i = a; i < b; i++)
+#define FORR(i, a, b) for (int i = a; i <= b; i++)
+#define veci vector<int>
+#define vecs vector<string>
+#define vecc vector<char>
+#define vecb vector<bool>
+#define deqi deque<int> 
+#define deqs deque<string>
+#define st set<int>
+#define mst multiset<int>
+#define int long long
+#define str string
+using namespace std;
+ 
+/// ⌁Yanke⌁ ///
+ 
+ 
+void _()
+{
+    int n;
+    cin >> n;
+    veci c(n);
+    veci f(n);
+    FOR(i, 0, n)
+    {
+        cin >> c[i];
+    }
+    FOR(i, 0, n)
+    {
+        cin >> f[i];
+    }
+    int ans = 0;
+    bool ok = true;
+    FOR(i, 0, n)
+    {
+        int min = f[i] - c[i];
+        ans += min;
+        if (ans < 0)
+        {
+            ok = false;
+        }
+    }
+    if (ok)
+    {
+        cout << "YES"<<endl;
+    }else{
+        cout << "NO"<<endl;
+    }
+}
+signed main()
+{
+    fastio 
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+        _();
+    }
+    
+}
