@@ -50,11 +50,7 @@ void _()
 ";
     return;
   }
-  if(n%6!=0){
-    cout << (n+5)/6<<" ";
-  }else{
-    cout << n/6<<" ";
-  }
+  cout << (n+5)/6<<" ";
   cout << n/4<<" ";
   cout << "
 ";
