@@ -46,34 +46,27 @@ void _()
   int n;
   cin >> n;
   veci v(n);
-  FOR(i, 0, n)
-  {
+  FOR(i,0,n){
     cin >> v[i];
   }
-  if (n == 1)
-  {
-    cout << 0 << "
+  if(n==1){
+    cout << 0<<"
 ";
     return;
   }
-  else
-  {
-    int k = 0;
-    FOR(i, 1, n)
-    {
-      k = max((v[i] - v[0]), k);
-    }
-    FOR(i, 0, n - 1)
-    {
-      k = max((v[n - 1] - v[i]), k);
-    }
-    FOR(i, 1, n)
-    {
-      k = max((v[i-1] - v[i]), k);
-    }
-    cout << k << "
-";
+  int k = 0;
+  FOR(i,1,n){
+     k = max((v[i]-v[0]),k);
   }
+  FOR(i,0,n-1){
+     k = max((v[n-1]-v[i]),k);
+  }
+  FOR(i,1,n){
+     k = max((v[i-1]-v[i]),k);
+  }
+  cout << k<<"
+";
+  
 }
 signed main()
 {
