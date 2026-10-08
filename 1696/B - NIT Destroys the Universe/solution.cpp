@@ -46,22 +46,21 @@ void _()
   int n;
   cin >> n;
   veci v(n);
-  FOR(i, 0, n)
-  {
+  FOR(i,0,n){
     cin >> v[i];
   }
   int cur = 0;
   int k = 0;
   FOR(i,0,n){
     if(v[i]==0){
-      k += min(1LL,cur);
+      k+=min(1ll,cur);
       cur = 0;
     }else{
       cur++;
     }
   }
-  k += min(1LL,cur);
-  cout << min(2LL,k)<<"
+  k+=min(1ll,cur);
+  cout << min(2ll,k)<<"
 ";
 }
 signed main()
