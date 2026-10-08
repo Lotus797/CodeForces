@@ -58,7 +58,7 @@ void _()
   }
   else
   {
-    int k = v[n - 1] - v[0];
+    int k = 0;
     FOR(i, 1, n)
     {
       k = max((v[i] - v[0]), k);
