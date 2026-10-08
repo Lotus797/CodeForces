@@ -46,30 +46,27 @@ void _()
   int n;
   cin >> n;
   veci v(n);
-  FOR(i, 0, n)
-  {
+  FOR(i,0,n){
     cin >> v[i];
   }
   int cnt = 0;
-  if(n==1){
+  if(n==0){
     cout << 0<<"
 ";
-    return;
-  }
-  else{
+  }else{
     for(int i = n-2;i>=0;i--){
-        while(v[i]>=v[i+1]&& v[i]>0){
-            v[i]/=2;
-            cnt++;
-        }
-        if(v[i]==v[i+1]){
-          cout << -1<<"
+      while(v[i]>=v[i+1] && v[i]>0){
+          v[i]/=2;
+          cnt++;
+      }
+      if(v[i]==v[i+1]){
+      cout <<-1<<"
 ";
-          return;
-        }
+      return;
+    }
     }
   }
-  cout<<cnt<<"
+  cout << cnt<<"
 ";
 }
 signed main()
